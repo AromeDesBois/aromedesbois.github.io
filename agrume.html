@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eucalyptus</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #f5f5f5;
+            color: white;
+            text-align: center;
+        }
+
+        #header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .gallery-item {
+            text-align: center;
+            border-radius: 15px;
+            overflow: hidden;
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Add hover effect */
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Add a lighter hover effect related to the viewport when on mobile */
+        @media (max-width: 768px) {
+            .gallery-item.mobile-hovered {
+                transform: none;
+                box-shadow: none;
+                background-color: #f5f5f5;
+            }
+        }
+
+        .image-container {
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            max-width: 50%;
+            height: auto;
+            max-height: 60%
+            border-radius: 50%;
+        }
+
+        .gallery-item p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        /* Style the "Cliquer ici pour voir nos prix" text */
+        .pricing-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .pricing-link {
+    color: #333; /* Default text color */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Smooth transition effect */
+    position: relative;
+}
+
+.pricing-link:hover {
+    color: purple; /* Text color on hover */
+    background: rgba(0, 0, 0, 0.5); /* Background color on hover */
+    padding-left: 40%; /* Adjusted padding for better alignment */
+}
+
+/* Add a subtle underline effect on hover */
+.pricing-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: purple;
+    transform: scaleX(0); /* Initial scale to 0 */
+    transform-origin: center;
+    transition: transform 0.3s ease; /* Smooth scale transition */
+}
+
+.pricing-link:hover::before {
+    transform: scaleX(1); /* Scale to full width on hover */
+}
+
+        
+/* Responsive adjustments for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+    #header img {
+        max-height: 50%; /* Reduce the maximum height on smaller screens */
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="header">
+    </div>
+
+    <div id="gallery">
+        <div class="gallery-item">
+            <div class="image-container">
+                <img src="IMG/Collection07/IMG01.jpg" alt="Image 01">
+            <img src="IMG/Collection07/IMG02.jpg" alt="Image 02">
+            
+                <img src="IMG/Collection07/IMG03.jpg" alt="Image 03">
+            </div>
+           
+        </div>
+    </div>
+    
+    
+    <!-- Add the "Cliquer ici pour voir nos prix" text after the gallery -->
+    <div>
+        
+        
+        
+        
+        <br><br><br>
+        
+        <h2>Citrus paradisi</h2>
+        <h3>[Citrus paradisi]</h3>
+        <h3>L'huile essentielle de Citrus paradisi, obtenue à partir de l'écorce du fruit du pamplemousse, est appréciée pour ses propriétés rafraîchissantes et revitalisantes. Son parfum citronné et acidulé en fait un choix populaire en aromathérapie et en produits de soins personnels. L'huile de pamplemousse est reconnue pour ses bienfaits pour la peau, contribuant à tonifier et à raffermir, tout en favorisant une apparence saine. Elle est également utilisée pour stimuler l'énergie et améliorer la clarté mentale, ce qui en fait un choix idéal pour se revitaliser. De plus, elle peut être bénéfique pour soutenir la digestion et favoriser une bonne santé gastro-intestinale. L'huile essentielle de Citrus paradisi offre une expérience olfactive dynamique et des avantages pour le bien-être général.</h3>
+       <h3>Utilisation topique : Appliquez une à deux gouttes sur la zone souhaitée. Diluez avec une huile porteuse (par exemple, de l'huile de coco) pour réduire toute sensibilité cutanée.<br><br>
+           Diffusion : Utilisez trois à quatre gouttes dans le diffuseur de votre choix.<br><br>
+    Usage interne : Prenez-le en interne avec une capsule végétale ou dans une boisson de 4 oz de votre choix avec un émulsifiant tel que le miel.</h3>
+        
+
+<h2>Citrus sinensis</h2>
+        <h3>[Citrus sinensis]</h3>
+        <h3>L'huile essentielle de Citrus sinensis, obtenue à partir de l'écorce du fruit de l'orange douce, est réputée pour ses propriétés apaisantes et son arôme sucré et fruité. Elle est largement utilisée en aromathérapie et dans les produits de soins personnels. L'huile d'orange douce est appréciée pour sa capacité à favoriser la relaxation, à réduire le stress et à améliorer l'humeur. Elle peut également être bénéfique pour la peau, en contribuant à l'hydratation et en favorisant un teint lumineux. Son parfum ensoleillé peut apporter une sensation de joie et d'énergie. De plus, elle peut être utilisée pour soutenir la digestion et favoriser une digestion confortable. L'huile essentielle de Citrus sinensis est une invitation à la détente et à la gaieté, avec des avantages polyvalents pour votre bien-être.</h3>
+        <h3>Utilisation topique : Appliquez une à deux gouttes sur la zone souhaitée. Diluez avec une huile porteuse (par exemple, de l'huile de coco) pour réduire toute sensibilité cutanée.<br><br>
+           Diffusion : Utilisez trois à quatre gouttes dans le diffuseur de votre choix.<br><br>
+    Usage interne : Prenez-le en interne avec une capsule végétale ou dans une boisson de 4 oz de votre choix avec un émulsifiant tel que le miel.</h3>
+
+<h2>Lime</h2>
+        <h3>[Citrus aurantiifolia]</h3>
+        <h3>L'huile essentielle de lime, extraite du zeste du fruit Citrus aurantiifolia, est appréciée pour son arôme rafraîchissant et ses propriétés stimulantes. Son parfum frais et zesté en fait un choix populaire en aromathérapie et dans les produits de soins de la peau. L'huile de lime est réputée pour son pouvoir revigorant, aidant à soulager le stress et à améliorer l'humeur. Elle peut également être utilisée pour favoriser la digestion et soulager les inconforts gastro-intestinaux. En outre, ses propriétés antibactériennes en font un choix naturel pour nettoyer et désinfecter les surfaces. L'huile essentielle de lime apporte une touche d'énergie et de fraîcheur à votre routine quotidienne, que ce soit en aromathérapie ou en soins corporels.</h3>
+        <h3>Utilisation topique : Appliquez une à deux gouttes sur la zone souhaitée. Diluez avec une huile porteuse (par exemple, de l'huile de coco) pour réduire toute sensibilité cutanée.<br><br>
+           Diffusion : Utilisez trois à quatre gouttes dans le diffuseur de votre choix.<br><br>
+    Usage interne : Prenez-le en interne avec une capsule végétale ou dans une boisson de 4 oz de votre choix avec un émulsifiant tel que le miel.</h3>
+
+<h2>Tangerine</h2>
+        <h3>[Citrus reticulata]</h3>
+        <h3>L'huile essentielle de tangerine, obtenue à partir de l'écorce du fruit Citrus reticulata, est réputée pour son arôme doux et apaisant ainsi que ses bienfaits pour le bien-être. Son parfum sucré et fruité en fait un choix apprécié en aromathérapie et dans les produits de soins de la peau. L'huile de tangerine est reconnue pour ses propriétés calmantes, favorisant la relaxation et aidant à réduire le stress et l'anxiété. Elle peut également être bénéfique pour la digestion en soulageant les inconforts gastro-intestinaux. De plus, elle est appréciée pour son pouvoir revitalisant, aidant à augmenter l'énergie et à améliorer la clarté mentale. L'huile essentielle de tangerine apporte une touche de douceur et de réconfort à votre quotidien, que ce soit en aromathérapie ou en soins personnels.</h3>
+        
+<h3>Utilisation topique : Appliquez une à deux gouttes sur la zone souhaitée. Diluez avec une huile porteuse (par exemple, de l'huile de coco) pour réduire toute sensibilité cutanée.<br><br>
+           Diffusion : Utilisez trois à quatre gouttes dans le diffuseur de votre choix.<br><br>
+    Usage interne : Prenez-le en interne avec une capsule végétale ou dans une boisson de 4 oz de votre choix avec un émulsifiant tel que le miel.</h3>
+        
+        
+        <h3>Extraction : Expression à froid</h3>
+        
+        
+    </div>
+
+      <!-- Add the "Cliquer ici pour voir nos prix" text after the gallery -->
+    <!--Lien PDF -->
+    <a href="Document/Price_list.pdf" target="" class="pricing-link" ><br> 🍃 Voir nos prix <br><br></a>
+    <br>
+    
+    <a href="index.html" target="_self" class="pricing-link"><br>Retour<br><br></a>
+
+    
+    <!-- JavaScript for custom cursor and mobile hover -->
+    <script>
+        // JavaScript for mobile hover effect
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const isMobile = window.innerWidth <= 768;
+
+        if (isMobile) {
+            galleryItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    this.classList.toggle('mobile-hovered');
+                });
+            });
+        }
+    </script>
+</body>
+</html>
