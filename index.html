@@ -19,15 +19,15 @@
           
         }
 
-        #header {
+     #header {
     position: relative;
-    height: 10%; /* Set the height of the header */
-        z-index: -1;
+    z-index: -1;
 }
 
 #header img {
     display: block;
-    max-height: 100%; /* Ensure the image fits within the header */
+    width: 100%; /* Make the image responsive to its container */
+    max-height: auto; /* Ensure the aspect ratio is maintained */
     margin: 0 auto; /* Center the image horizontally */
 }
 
@@ -123,6 +123,13 @@
     transform: scaleX(1); /* Scale to full width on hover */
 }
 
+        
+/* Responsive adjustments for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+    #header img {
+        max-height: 50%; /* Reduce the maximum height on smaller screens */
+    }
+}
         
    
         
